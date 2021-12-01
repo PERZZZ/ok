@@ -13,7 +13,7 @@
 // ==/UserScript==
 
 // We need to wait until the options-container is created!
-waitForKeyElements(".options-container", onQuizCreate)
+waitForKeyElements(".col-md-12", onQuizCreate)
 let isQuizCreated = false
 
 function onQuizCreate() {
